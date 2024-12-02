@@ -16,3 +16,10 @@ func GetAllIntegersFromString(text string) (vals []int) {
 	}
 	return vals
 }
+
+func AbsDiffInt(x, y int) int {
+	if x < y {
+		return y - x
+	}
+	return x - y
+}
