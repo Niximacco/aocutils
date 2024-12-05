@@ -1,4 +1,4 @@
-package aocutils
+package utils
 
 func Check(e error) {
 	if e != nil {
